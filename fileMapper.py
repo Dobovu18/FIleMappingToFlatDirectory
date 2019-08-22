@@ -37,6 +37,7 @@ def removeDuplicateFiles(directory, duplicateBin):
         #Non-duplicates are of the form "ID" which is an integer
         if not duplicateId.isdigit():
             os.rename(directory + "//" + files, duplicateBin + "//" + files)
+
 def checkIfUnique(sheet, column, start_row): #Just a check to make sure that the IDs uniquely identify the file's title
     for col in sheet.iter_rows(min_row = start_row, min_col = column, max_col = column):
         for cell in col:
@@ -45,15 +46,18 @@ def checkIfUnique(sheet, column, start_row): #Just a check to make sure that the
                 for cell2 in col2:
                     if cell2.value == checkAgainst: return False
     return True
+
 def searchCol(sheet, column, start_row, value): #Searches for value in a given column in a given sheet below a certain row.
     for col in sheet.iter_rows(min_row = start_row, min_col = column, max_col = column):
         for cell in col:
             if str(cell.value) == value: return cell.row
     return -1
+
 def get_immediate_subdirectories(a_dir):#Gets the first-order subdirectories
     #Credit to: https://stackoverflow.com/a/800201/6363186
     return [name for name in os.listdir(a_dir)
             if os.path.isdir(os.path.join(a_dir, name))]
+
 def renameFiles(path, spreadsheetLocation, directory, holdingFolderName, sheetName, folderType, start_row, ID_col, title_col, kind_col, ID2_col):
     #Logs keep info on what is happening whilst folders are being renamed.
     errorLog = "\nERRORS:"
@@ -133,6 +137,7 @@ def renameFiles(path, spreadsheetLocation, directory, holdingFolderName, sheetNa
         completeLog.write(errorLog + concernLog + successLog)
         print("The information in the terminal is saved in FileMappingLog.txt in the Flat Directory.")
         completeLog.close()
+
 def main():#Executes the main code
     print("Select the directory holding all the files to be renamed")
     directory = askdirectory()
