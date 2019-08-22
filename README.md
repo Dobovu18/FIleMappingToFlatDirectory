@@ -1,5 +1,8 @@
 # FIleMappingToFlatDirectory
 
+This is a project for a summer 2019 internship. To sum things up, I had to work out a way to rename over 9000 files given
+information on a spreadsheet. This is the code, and a smaller test environment for it. I chose to do this in python.
+
 The task:
     --A folder was pulled from a server.
     --The folder is filled with sub-folders which are named in accordance to some ID. This ID will be referred to was ID1.
