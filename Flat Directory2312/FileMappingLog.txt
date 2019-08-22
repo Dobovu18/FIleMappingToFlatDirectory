@@ -1,0 +1,44 @@
+
+ERRORS:
+No more errors found during renaming
+
+CONCERNS:
+Removing duplicate files in D:/Google Drive/Computer Science/Python/FileMapping/Directory\0001\1000
+Removing duplicate files in D:/Google Drive/Computer Science/Python/FileMapping/Directory\0006\6000
+Removing duplicate files in D:/Google Drive/Computer Science/Python/FileMapping/Directory\0013\3100
+Removing duplicate files in D:/Google Drive/Computer Science/Python/FileMapping/Directory\0018\8100
+Removing duplicate files in D:/Google Drive/Computer Science/Python/FileMapping/Directory\0021\1200
+Removing duplicate files in D:/Google Drive/Computer Science/Python/FileMapping/Directory\0022\2200
+Removing duplicate files in D:/Google Drive/Computer Science/Python/FileMapping/Directory\0025\5200
+The file 0026 has no corresponding entry in the spreadsheet in column 3
+The file 1234 has no corresponding entry in the spreadsheet in column 3
+No more concerns to be raised during renaming
+
+SUCCESSES:
+0000.pdf successfully renamed to A_0000.pdf
+1000.pdf successfully renamed to B_1000.pdf
+2000.pdf successfully renamed to C_2000.pdf
+3000.pdf successfully renamed to D_3000.pdf
+4000.pdf successfully renamed to E_4000.pdf
+5000.pdf successfully renamed to F_5000.pdf
+6000.pdf successfully renamed to G_6000.pdf
+7000.pdf successfully renamed to H_7000.pdf
+8000.pdf successfully renamed to I_8000.pdf
+9000.pdf successfully renamed to J_9000.pdf
+0100.pdf successfully renamed to K_0100.pdf
+1100.pdf successfully renamed to L_1100.pdf
+2100.pdf successfully renamed to M_2100.pdf
+3100.pdf successfully renamed to N_3100.pdf
+4100.pdf successfully renamed to O_4100.pdf
+5100.pdf successfully renamed to P_5100.pdf
+6100.pdf successfully renamed to Q_6100.pdf
+7100.pdf successfully renamed to R_7100.pdf
+8100.pdf successfully renamed to S_8100.pdf
+9100.pdf successfully renamed to T_9100.pdf
+0200.pdf successfully renamed to U_0200.pdf
+1200.pdf successfully renamed to V_1200.pdf
+2200.pdf successfully renamed to W_2200.pdf
+3200.pdf successfully renamed to X_3200.pdf
+4200.pdf successfully renamed to Y_4200.pdf
+5200.pdf successfully renamed to Z_5200.pdf
+Finished
